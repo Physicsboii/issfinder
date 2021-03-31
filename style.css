@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right bottom, #434343, #000000); 
+    overscroll-behavior: none;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.longitude,
+.latitude{
+
+    font-size: 50px;
+}
+
